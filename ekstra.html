@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>S.S.S - L'ATELIER DE L'AMOUR CAFE</title>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #dbd5ce;
+      color: #5a3e2b;
+    }
+    .navbar {
+      background-color: #695649;
+    }
+    .navbar-brand,
+    .nav-link {
+      color: #f5e9dc !important;
+      font-weight: 600;
+    }
+    footer {
+      background-color: #695649;
+      color: #f5e9dc;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">L'ATELIER DE L'AMOUR</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Ana Sayfa</a></li>
+          <li class="nav-item"><a class="nav-link" href="hakkimizda.html">Hakkımızda</a></li>
+          <li class="nav-item"><a class="nav-link" href="hizmetler.html">Menü</a></li>
+          <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+          <li class="nav-item"><a class="nav-link" href="siparis.html">Online Sipariş</a></li>
+          <li class="nav-item"><a class="nav-link active" href="ekstra.html">S.S.S</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- S.S.S Accordion -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Sıkça Sorulan Sorular</h2>
+    <div class="accordion" id="sssAccordion">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="sss1Heading">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sss1" aria-expanded="true" aria-controls="sss1">
+            Kahveleriniz organik mi?
+          </button>
+        </h2>
+        <div id="sss1" class="accordion-collapse collapse show" aria-labelledby="sss1Heading" data-bs-parent="#sssAccordion">
+          <div class="accordion-body">
+            Evet, tüm kahvelerimiz %100 organik sertifikalı ürünlerden seçilmektedir.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="sss2Heading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sss2" aria-expanded="false" aria-controls="sss2">
+            Rezervasyon yapabiliyor muyum?
+          </button>
+        </h2>
+        <div id="sss2" class="accordion-collapse collapse" aria-labelledby="sss2Heading" data-bs-parent="#sssAccordion">
+          <div class="accordion-body">
+            Evet, telefon veya web sitemiz üzerinden rezervasyon yapabilirsiniz.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="sss3Heading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sss3" aria-expanded="false" aria-controls="sss3">
+            Vegan ve glütensiz seçenekler var mı?
+          </button>
+        </h2>
+        <div id="sss3" class="accordion-collapse collapse" aria-labelledby="sss3Heading" data-bs-parent="#sssAccordion">
+          <div class="accordion-body">
+            Evet, menümüzde vegan ve glütensiz ürünlerimiz de bulunmaktadır.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="sss4Heading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sss4" aria-expanded="false" aria-controls="sss4">
+            Wi-Fi hizmetiniz var mı?
+          </button>
+        </h2>
+        <div id="sss4" class="accordion-collapse collapse" aria-labelledby="sss4Heading" data-bs-parent="#sssAccordion">
+          <div class="accordion-body">
+            Evet, ücretsiz Wi-Fi hizmetimiz mevcuttur. Şifreyi personelimizden isteyebilirsiniz.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="sss5Heading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sss5" aria-expanded="false" aria-controls="sss5">
+            Evcil hayvan kabul ediyor musunuz?
+          </button>
+        </h2>
+        <div id="sss5" class="accordion-collapse collapse" aria-labelledby="sss5Heading" data-bs-parent="#sssAccordion">
+          <div class="accordion-body">
+            Evet, dış mekan oturma alanımız evcil hayvan dostudur.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="sss6Heading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sss6" aria-expanded="false" aria-controls="sss6">
+            Online sipariş verebilir miyim?
+          </button>
+        </h2>
+        <div id="sss6" class="accordion-collapse collapse" aria-labelledby="sss6Heading" data-bs-parent="#sssAccordion">
+          <div class="accordion-body">
+            Evet, WhatsApp sipariş hattımız üzerinden online sipariş verebilirsiniz. Ana sayfada sipariş butonu mevcuttur.
+          </div>
+        </div>
+      </div>
+
+      <!-- Yeni sorular başladı -->
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="sss7Heading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sss7" aria-expanded="false" aria-controls="sss7">
+            Çalışma saatleriniz nedir?
+          </button>
+        </h2>
+        <div id="sss7" class="accordion-collapse collapse" aria-labelledby="sss7Heading" data-bs-parent="#sssAccordion">
+          <div class="accordion-body">
+            Hafta içi 08:00 - 22:00, hafta sonu 09:00 - 23:00 saatleri arasında hizmet vermekteyiz.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="sss8Heading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sss8" aria-expanded="false" aria-controls="sss8">
+            Özel günler için catering hizmetiniz var mı?
+          </button>
+        </h2>
+        <div id="sss8" class="accordion-collapse collapse" aria-labelledby="sss8Heading" data-bs-parent="#sssAccordion">
+          <div class="accordion-body">
+            Evet, doğum günü, toplantı ve özel etkinlikler için catering hizmeti sunuyoruz. Detaylı bilgi için bizimle iletişime geçebilirsiniz.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="sss9Heading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sss9" aria-expanded="false" aria-controls="sss9">
+            Ödeme seçenekleriniz nelerdir?
+          </button>
+        </h2>
+        <div id="sss9" class="accordion-collapse collapse" aria-labelledby="sss9Heading" data-bs-parent="#sssAccordion">
+          <div class="accordion-body">
+            Nakit, kredi kartı ve temassız ödeme yöntemlerini kabul etmekteyiz.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="sss10Heading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sss10" aria-expanded="false" aria-controls="sss10">
+            Engelli erişimine uygun mu?
+          </button>
+        </h2>
+        <div id="sss10" class="accordion-collapse collapse" aria-labelledby="sss10Heading" data-bs-parent="#sssAccordion">
+          <div class="accordion-body">
+            Evet, mekânımız engelli erişimine uygundur ve gerekli düzenlemeler yapılmıştır.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-4">
+    <p>&copy; 2025 L'ATELIER DE L'AMOUR CAFE | İletişim: info@lateliercafe.com</p>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
