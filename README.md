@@ -22,5 +22,5 @@ Kullanıcılara Cafemizin içeriğini tanıtmak için tasarlanmıştır.
 3. index.html dosyasını bir tarayıcıda açın.
 
 ## Canlı Demo
-https://sudekara.github.io/my-website/
+https://sudekara.github.io/Cafe-Web-Sitesi/
 
